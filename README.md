@@ -10,7 +10,7 @@ This repository showcases a series of machine learning projects tackling various
 2. **Salary Compensation Strategy Optimization (Regression)**  
    Developed multiple regression models using webscraped data to assist HR departments in optimizing salary strategies within the management consulting industry.
 
-3. **SUV Purchase Prediction (Classification)**  
+3. **Breast Cancer Prediction (Classification)**  
    Implemented various classification models to predict the development of breast cancer in women using information retrieved from tissue biopsy.
 
 4. **Customer Segmentation for Marketing Strategies (Clustering)**  
