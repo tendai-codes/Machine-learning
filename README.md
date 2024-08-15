@@ -11,7 +11,7 @@ This repository showcases a series of machine learning projects tackling various
    Developed multiple regression models using webscraped data to assist HR departments in optimizing salary strategies within the management consulting industry.
 
 3. **SUV Purchase Prediction (Classification)**  
-   Implemented various classification models to predict whether a customer is likely to purchase an SUV based on demographic and financial factors.
+   Implemented various classification models to predict the development of breast cancer in women using information retrieved from tissue biopsy.
 
 4. **Customer Segmentation for Marketing Strategies (Clustering)**  
    Applied K-Means and hierarchical clustering techniques to segment customers based on spending and income, aiding in the development of targeted marketing strategies.
