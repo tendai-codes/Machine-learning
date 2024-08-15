@@ -20,4 +20,3 @@ This repository showcases a series of machine learning projects tackling various
 - **Languages & Libraries:** Python, Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn, BeautifulSoup, Scipy  
 - **Machine Learning Models:** Multiple Linear Regression, Polynomial Regression, Support Vector Regression (SVR), Logistic Regression, K-Nearest Neighbors (KNN), Support Vector Machine (SVM), Naive Bayes, Decision Tree, Random Forest, K-Means Clustering, Hierarchical Clustering  
 - **Techniques:** Data preprocessing, feature scaling, exploratory data analysis (EDA), model evaluation (R-squared, confusion matrix, K-fold cross validation, Grid search), clustering validation (elbow method, dendrograms)
-
