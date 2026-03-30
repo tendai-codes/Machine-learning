@@ -1,31 +1,26 @@
-# Stock Price Prediction (Ridge Regression)
+# Stock Price Prediction Using Ridge Regression
 
-## Project Description
-This project focused on predicting future stock prices using historical data and Ridge Regression, comparing its performance to other models. I used Python and integrated both traditional machine learning and visualisation libraries to explore the data and build predictive models. Achieved an R-squared score of 98%, with a k-fold cross-validation score of 86%.
+## Problem
 
-Source: https://tendaisibanda.dev/ (Stock Price Analysis using Ridge Regression)
+This project analysed historical stock price data to model relationships between market variables and support prediction of future stock price behaviour using ridge regression.
 
-## Portfolio Context
-This repository showcases a series of machine learning projects tackling various real-world problems through regression, classification, and clustering models. Each project involves data preprocessing, model training, evaluation, and analysis to provide actionable insights and predictions.
+## Objective
 
-## Projects Overview
-- Startup Profit Prediction (Regression): Built a multiple linear regression model to predict the profitability of startups, providing actionable insights to a venture capital firm for portfolio expansion decisions.
-- Salary Compensation Strategy Optimization (Regression): Developed multiple regression models using webscraped data to assist HR departments in optimizing salary strategies within the management consulting industry.
-- Breast Cancer Prediction (Classification): Implemented various classification models to predict the development of breast cancer in women using information retrieved from tissue biopsy.
-- Customer Segmentation for Marketing Strategies (Clustering): Applied K-Means and hierarchical clustering techniques to segment customers based on spending and income, aiding in the development of targeted marketing strategies.
-- Bank Customer Segmentation Analysis (K-Means & Principal Component Analysis): Analyzed bank customer data to segment customers using K-Means Clustering, with dimensionality reduction achieved through PCA. This approach resulted in 7 well-defined customer segments based on key financial behaviors, optimizing the bank's ability to tailor products and services.
-- Ridge Regression Model (Python & TensorFlow): Built a ridge regression model to predict stock prices with high accuracy. Leveraged Pandas for data preprocessing, and TensorFlow for model development. Achieved an R-squared score of 98%, with a k-fold cross-validation score of 86%.
-- Long Short Term Memory (LSTM) Neural Network: Developed an LSTM neural network to predict stock price trends using a recurrent neural network structure. Preprocessed data using Pandas and constructed the model in TensorFlow. The model achieved an average validation loss of 0.000117 using k-fold cross-validation.
+- Prepare historical stock price data for regression-based prediction
+- Apply ridge regression to model relationships between predictor variables and stock price
+- Examine the effect of regularisation on regression coefficient stability
+- Compare predicted values with observed stock price behaviour
 
-## Key Skills and Tools
-- Languages & Libraries: Python, Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn, BeautifulSoup, Scipy, Tensorflow, Keras
-- Machine Learning Models: Multiple Linear Regression, Polynomial Regression, Support Vector Regression (SVR), Logistic Regression, K-Nearest Neighbors (KNN), Support Vector Machine (SVM), Naive Bayes, Decision Tree, Random Forest, K-Means Clustering, Hierarchical Clustering, recurrent neural networks
-- Techniques: Data preprocessing, feature scaling, exploratory data analysis (EDA), model evaluation (R-squared, confusion matrix, K-fold cross validation, Grid search), clustering validation (elbow method, dendrograms)
+## Approach
 
-## Contents
-- `Stock Price Prediction using Ridge Regression Model.ipynb`
+- Imported historical stock price data and structured predictor variables for modelling
+- Applied feature scaling to support regularised regression stability
+- Trained a ridge regression model using training data
+- Generated predictions and compared estimated values with observed stock prices
 
-## Run
-1. Install requirements from `requirements.txt`.
-2. Open the notebook in Jupyter.
-3. Add input dataset files expected by the notebook if not present.
+## Key Findings
+
+- Ridge regression produced stock price estimates based on selected market predictors
+- Regularisation supported stable coefficient estimation within the regression model
+- Model predictions followed observable trends in stock price behaviour across the evaluation dataset
+- Visual comparison plots enabled inspection of differences between predicted and observed price values
