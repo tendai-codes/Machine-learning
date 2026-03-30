@@ -1,31 +1,30 @@
-# Stock Price Prediction (LSTM)
+# Stock Price Prediction Using Long Short-Term Memory (LSTM)
 
-## Project Description
-This project focused on predicting Tesla (TSLA) stock prices using deep learning techniques with LSTM neural networks. I built a time series forecasting model that uses historical closing prices and trading volumes to predict next-day stock prices, implementing robust validation through K-fold cross-validation.
+## Problem
 
-Source: https://tendaisibanda.dev/ (Stock Price Analysis using Long Short Term Memory Neural Network)
+This project analysed historical stock price time-series data to model temporal patterns and support prediction of future stock price behaviour using a Long Short-Term Memory (LSTM) neural network.
 
-## Portfolio Context
-This repository showcases a series of machine learning projects tackling various real-world problems through regression, classification, and clustering models. Each project involves data preprocessing, model training, evaluation, and analysis to provide actionable insights and predictions.
+## Objective
 
-## Projects Overview
-- Startup Profit Prediction (Regression): Built a multiple linear regression model to predict the profitability of startups, providing actionable insights to a venture capital firm for portfolio expansion decisions.
-- Salary Compensation Strategy Optimization (Regression): Developed multiple regression models using webscraped data to assist HR departments in optimizing salary strategies within the management consulting industry.
-- Breast Cancer Prediction (Classification): Implemented various classification models to predict the development of breast cancer in women using information retrieved from tissue biopsy.
-- Customer Segmentation for Marketing Strategies (Clustering): Applied K-Means and hierarchical clustering techniques to segment customers based on spending and income, aiding in the development of targeted marketing strategies.
-- Bank Customer Segmentation Analysis (K-Means & Principal Component Analysis): Analyzed bank customer data to segment customers using K-Means Clustering, with dimensionality reduction achieved through PCA. This approach resulted in 7 well-defined customer segments based on key financial behaviors, optimizing the bank's ability to tailor products and services.
-- Ridge Regression Model (Python & TensorFlow): Built a ridge regression model to predict stock prices with high accuracy. Leveraged Pandas for data preprocessing, and TensorFlow for model development. Achieved an R-squared score of 98%, with a k-fold cross-validation score of 86%.
-- Long Short Term Memory (LSTM) Neural Network: Developed an LSTM neural network to predict stock price trends using a recurrent neural network structure. Preprocessed data using Pandas and constructed the model in TensorFlow. The model achieved an average validation loss of 0.000117 using k-fold cross-validation.
+- Prepare historical stock price data for sequence-based time-series modelling
+- Construct an LSTM neural network for stock price prediction
+- Train the model on historical price sequences
+- Compare predicted values with observed stock price behaviour
 
-## Key Skills and Tools
-- Languages & Libraries: Python, Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn, BeautifulSoup, Scipy, Tensorflow, Keras
-- Machine Learning Models: Multiple Linear Regression, Polynomial Regression, Support Vector Regression (SVR), Logistic Regression, K-Nearest Neighbors (KNN), Support Vector Machine (SVM), Naive Bayes, Decision Tree, Random Forest, K-Means Clustering, Hierarchical Clustering, recurrent neural networks
-- Techniques: Data preprocessing, feature scaling, exploratory data analysis (EDA), model evaluation (R-squared, confusion matrix, K-fold cross validation, Grid search), clustering validation (elbow method, dendrograms)
+## Approach
 
-## Contents
+- Imported historical stock price data and selected relevant time-series features
+- Normalised price values to support neural network training stability
+- Generated sequential training datasets using sliding time windows
+- Trained an LSTM model and produced predictions on evaluation data
+
+## Key Findings
+
+- The LSTM model generated predicted stock price sequences from historical input windows
+- Normalisation supported stable training of the time-series neural network
+- Sequential input construction enabled modelling of temporal dependencies in price data
+- Visual comparison plots showed alignment between predicted and observed price trends over the evaluation period
+
+## Notbook
 - `Stock Price Predictions using Long Short Term Memory Model.ipynb`
 
-## Run
-1. Install requirements from `requirements.txt`.
-2. Open the notebook in Jupyter.
-3. Add input dataset files expected by the notebook if not present.
